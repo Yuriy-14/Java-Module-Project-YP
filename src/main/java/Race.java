@@ -4,7 +4,7 @@ import java.util.List;
 public class Race {
     List<Car>cars = new ArrayList<>(); // Список автомобилей
 
-    Car leader;                //Текущий лидер гонки
+    Car leader;                //Текущий лидер гонки.
 
     void addCar(Car car) {        //Добавляем автомоьбиль в гонку
         cars.add(car); // Добавляем в список участиноков
